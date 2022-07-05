@@ -5,18 +5,18 @@
 MongoDB is based on a NoSQL database that is used for storing data in a key-value pair. Its working is based on the concept of document and collection. It is also an open-source, a document-oriented, cross-platform database system that is written using C++.
 Mongo DB can be defined as a document-oriented database system that uses the concept of NoSQL. It also provides high availability, high performance, along with automatic scaling. This open-source product was developed by the company - 10gen in October 2007, and the company also maintains it. MongoDB exists under the General Public License (GPL) as a free database management tool as well as available under Commercial license as of the manufacturer. MongoDB was also intended to function with commodity servers. Companies of different sizes all over the world across all industries are using MongoDB as their database.
 
-## General Terminologies
+# General Terminologies
 
-# Database
+## Database
 In MongoDB, a database can be defined as a physical container for collections of data. Here, on the file system, every database has its collection of files residing. Usually, a MongoDB server contains numerous databases.
 
-# Document
+## Document
 A document can be defined as a collection of key-value pairs that contain dynamic schema. Dynamic schema is something that documents of the equal collection do not require for having the same collection of fields or construction, and a common field is capable of holding various types of data.
 
-# Collection
+## Collection
 Collections can be defined as a cluster of MongoDB documents that exist within a single database. You can relate this to that of a table in a relational database management system. MongoDB collections do not implement the concept of schema. Documents that have collection usually contain different fields. Typically, all the documents residing within a collection are meant for a comparable or related purpose.
 
-# Organizations that use MongoDB
+## Organizations that use MongoDB
 
 - Adobe
 - McAfee
@@ -31,7 +31,7 @@ Collections can be defined as a cluster of MongoDB documents that exist within a
 - Google
 - Aadhar
 
-# Advantages of using MongoDB
+## Advantages of using MongoDB
 
 - Since MongoDB is a schema-less database, so there is no hassle of schema migration.
 - Since it is a document-oriented language, document queries are used, which plays a vital role in supporting dynamic queries.
