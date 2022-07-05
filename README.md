@@ -45,5 +45,21 @@ Collections can be defined as a cluster of MongoDB documents that exist within a
 - It also supports sharding of data.
 
 ## use command  
-It is used to create a database. This command will creatye a new databse if it doesn't exist otherwise it will return the existing database.
+    
+    use DATABASE_NAME
+    
+## CRUD OPERATIONS
 
+    - CREATE
+        insertOne(data, options)
+        insertMany(data, options)
+    - READ
+        find(filter,options)
+        findOne(filter,options)
+    - UPDATE
+        updateOne(filter, data, options)
+        updateMany(filter, data, options)
+        replaceOne(filter, data, options)
+    - DELETE
+        deleteOne(filter, options)
+        deleteMany(filter, options)
