@@ -43,3 +43,5 @@ Collections can be defined as a cluster of MongoDB documents that exist within a
 - Users can run MongoDB as a windows service also.
 - It does not require any VM to run on different platforms.
 - It also supports sharding of data.
+
+## use command - it is used to create a database. This command will creatye a new databse if it doesn't exist otherwise it will return the existing database.
