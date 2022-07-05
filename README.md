@@ -63,3 +63,12 @@ Collections can be defined as a cluster of MongoDB documents that exist within a
     - DELETE
         deleteOne(filter, options)
         deleteMany(filter, options)
+
+## dropDatabase() method : Drop a existing database.
+
+    syntax : db.dropDatabase()
+    
+## Query Document
+
+    - The find() method - This method will display all the documents in a non-structured way.
+    db.COLLECTION_NAME.find()
